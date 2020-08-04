@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install --save-dev zip-webpack-plugin`
+`npm install --save-dev switers-webpackcluster`
 
 ## Usage
 
@@ -10,7 +10,7 @@
 
 ***webpack fileCopyPanelPlugin.js***
 ```js
-var { webpackPlugins } = require('@switers/webpack');
+var { webpackPlugins } = require('switers-webpackcluster');
 var { FileCopyPanelPlugin } = webpackPlugins;
 module.exports = {
   // ...
