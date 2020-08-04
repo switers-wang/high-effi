@@ -1,7 +1,7 @@
 {
-  "name": "high-effi",
+  "name": "@switers/webpack",
   "version": "1.0.0",
-  "description": "各种提效插件,util集合",
+  "description": "webpack loader plugins",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,12 +12,19 @@
   },
   "keywords": [
     "util",
-    "plugin"
+    "plugin",
+    "webpack plugins",
+    "webpack",
+    "copy",
+    "copypanel"
   ],
   "author": "switers",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/switers-wang/high-effi/issues"
   },
-  "homepage": "https://github.com/switers-wang/high-effi#readme"
+  "homepage": "https://github.com/switers-wang/high-effi#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0"
+  }
 }
